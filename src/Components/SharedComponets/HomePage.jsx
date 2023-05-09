@@ -1,7 +1,8 @@
 import Introduction from "./Introduction";
 import Work from "../../Pages/Work";
 import Contact from "../../Pages/Contact";
-import About from "../../Pages/About";
+
+import About_ from "../../Pages/About_";
 
 function HomePage() {
   return (
@@ -10,7 +11,7 @@ function HomePage() {
       <span className="element-tags tab">&lt; body &gt;</span>
       <Introduction />
       <Work />
-      <About />
+      <About_ />
       <Contact />
       <span className="element-tags tab">&lt; body/ &gt;</span>
       <span className="element-tags">&lt; html/ &gt;</span>
