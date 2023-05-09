@@ -32,7 +32,7 @@ function Work() {
           return (
             <picture
               style={{ "--image-url": `url(${project.src})` }}
-              className=" flex border items-end justify-center  bg-[image:var(--image-url)] bg-cover  bg-center bg-no-repeat opacity-50 hover:scale-[1.2] tablet:h-full h-[10rem] w-full hover:opacity-100 transition-all duration-700 rounded md hover:z-10"
+              className=" flex border items-end justify-center  bg-[image:var(--image-url)] bg-cover  bg-center bg-no-repeat opacity-50 hover:scale-[1.1] tablet:h-full h-[10rem] w-full hover:opacity-100 transition-all duration-700 rounded md hover:z-10"
               key={index}
             >
               hello

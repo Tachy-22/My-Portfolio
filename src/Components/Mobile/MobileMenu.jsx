@@ -6,7 +6,7 @@ function MobileMenu() {
   return (
     <section
       onClick={() => setMobileMenuView(!mobileMenuView)}
-      className="w-fit fixed laptop:hidden laptop:hidden  bg-black/25 block top-0  right-0 p-2 m-2 rounded-md"
+      className="w-fit fixed laptop:hidden   bg-black/25 block top-0  right-0 p-2 m-2 rounded-md"
     >
       <picture
         style={{ "--image-url": `url(${Hamburger})` }}
