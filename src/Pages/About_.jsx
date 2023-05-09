@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { skillTechnologyArray } from "../db-arrays/DbArrays";
-function About() {
+function About_() {
   return (
     <section className="  tablet:w-full  laptop:flex-row flex flex-col py-2 laptop:h-full  min-h-full laptop:items-center ">
       <article className="     flex tablet:w-3/4 flex-col justify-center h-full   ">
@@ -69,4 +69,4 @@ function About() {
   );
 }
 
-export default About;
+export default About_;
