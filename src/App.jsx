@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import RootLayout from "./Layouts/RootLayout";
 import GeneralPageLayout from "./Components/SharedComponets/GeneralPageLayout";
-import About from "./Pages/about";
+import About from "./Pages/About";
 import MySkills from "./Pages/MySkills";
 import Work from "./Pages/Work";
 import Contact from "./Pages/Contact";
