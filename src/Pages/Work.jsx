@@ -11,7 +11,7 @@ function Work() {
           </h2>
           <span className="  element-tags tab-2">&lt; /h2 &gt;</span>
           <span className="  element-tags tab-2">&lt; p &gt;</span>
-          <div className="  p-4  tabet:text-md text-xs  flex flex-col gap-6">
+          <div className="  p-4  tabet:text-md  flex flex-col gap-6">
             <p className=" tab-3">
               A small gallery of recent projects chosen by me. I&apos;ve done
               them all together with amazing people from companies around the
@@ -25,19 +25,13 @@ function Work() {
       </article>
       <span className="    element-tags tab">&lt; section &gt;</span>
 
-      {/* {projectsArray.map((project, index) => {
-          return (
-            <figure className=" w-[100%] h-[100%]" key={index}>
-              <img className=" w-full h-full " id="project" src={project.src} />
-            </figure>
-          );
-        })} */}
-      <div className="r w-full h-full p-[4rem]  grow grid tablet:grid-cols-3 grid-cols-1 gap-6 ">
+
+      <div className="r w-full h-full p-[2rem]  grow grid tablet:grid-cols-3 grid-cols-1 gap-6 ">
         {projectsArray.map((project, index) => {
           return (
             <picture
               style={{ "--image-url": `url(${project.src})` }}
-              className="image-size flex  items-end justify-center  bg-[image:var(--image-url)] bg-contain  bg-center bg-no-repeat pb-[1.5rem] sm:w-[15rem] opacity-50 hover:scale-[1.2] tablet:h-full h-[20rem] hover:opacity-100 transition-all duration-700 rounded md hover:z-10"
+              className=" flex border items-end justify-center  bg-[image:var(--image-url)] bg-cover  bg-center bg-no-repeat opacity-50 hover:scale-[1.2] tablet:h-full h-[10rem] w-full hover:opacity-100 transition-all duration-700 rounded md hover:z-10"
               key={index}
             >
               hello

@@ -9,7 +9,7 @@ function About_() {
           <span className="    grow element-tags laptop:tab-2 ">
             &lt; h2 &gt;
           </span>
-          <h2 className="  shrink w-full border   grow text-[#08fdd8] laptop:text-6xl text-4xl font-bold   lg:text-left  laptop:tab-3 tab-2">
+          <h2 className="  shrink w-full    grow text-[#08fdd8] laptop:text-6xl text-4xl font-bold   lg:text-left  laptop:tab-3 tab-2">
             Me, Myself & I
           </h2>
           <span className="    grow element-tags laptop:tab-2 tab">
@@ -18,7 +18,7 @@ function About_() {
           <span className="    grow element-tags laptop:tab-2 tab">
             &lt; p &gt;
           </span>
-          <div className="  border shrink  grow p-4 w-full flex flex-col gap-6">
+          <div className="   shrink  grow p-4 w-full flex flex-col gap-6">
             <p className="  laptop:tab-3 tab-2">
               I’m a Front-End Developer located in Poland. I have a serious
               passion for UI effects, animations and creating intuitive, dynamic

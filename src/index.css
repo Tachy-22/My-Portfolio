@@ -262,16 +262,21 @@ body {
 @tailwind utilities;
 
 @media (max-width: 410px) {
-  .mobile {
-    font-size: 0.8rem
+ 
+  .element-tags {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+
   }
-    .element-tags {
-      padding-top: 1px;
-      padding-bottom: 1px;
-      display: flex;
-      flex-direction: column;
-      font-size: 1rem;
-      line-height: 1.2rem;
-     
-    }
+
+  .custom-button {
+    padding: 0.5rem;
+    letter-spacing: 2px;
+    font-size: 12px;
+    ;
+  }
 }

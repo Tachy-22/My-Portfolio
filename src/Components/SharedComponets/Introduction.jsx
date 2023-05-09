@@ -2,11 +2,11 @@ import ProfileImage from "../../assets/img/picture_of_me_3-removebg-preview.png"
 import { motion } from "framer-motion";
 function Introduction() {
   return (
-    <section className="  flex    w-full items-start justify-center   ">
+    <section className="   flex    w-full items-start justify-center   ">
       <div className="   flex items-start justify-start  h-full w-fit grow">
         <article className="  w-fit   laptop:my-[10rem] max-[410px]:text-sm  ">
           <span className="  element-tags tab-2">&lt; h1 &gt;</span>
-          <div className="    tab-3 laptop:w-max w-fit laptop:text-8xl tablet:text-7xl text-4xl shrink  text-left  font-extrabold    gap-4 flex flex-col  ">
+          <div className="    tab-3 laptop:w-max w-fit laptop:text-8xl tablet:text-7xl text-2xl shrink  text-left  font-extrabold    gap-4 flex flex-col  ">
             <h2 className="  ">Hi,</h2>
             <div className="  flex gap-[1rem] w-fit  ">
               <h2 className="    flex flex-col justify-center  ">I’m</h2>
@@ -23,12 +23,12 @@ function Introduction() {
           <span className="  element-tags tab-2">&lt; /h1 &gt;</span>
           <p className="    tlaptop:text-xl text-sm tab-2  text-[#696972]">
             <span className="   element-tags"> &lt; p &gt;</span>
-            <span className="  tab-3  tracking-widest break-words element-tag-text italic ">
+            <span className="  tab-3  tracking-widest break-words element-tag-text italic mx-2 ">
               <p> Front End Developer / Ai Enthusiasts</p>
             </span>
             <span className="  element-tags">&lt; /p &gt;</span>
           </p>
-          <button className="  custom-button m-6 mx-8 tablet:w-1/2 w-fit tablet:text-xl text-xs">
+          <button className="  custom-button laptop:m-6 laptop:mx-8 my-2 ml-[5rem] tablet:w-1/3 w-fit laptop:text-xl text-xs">
             Contact me!
           </button>
         </article>
