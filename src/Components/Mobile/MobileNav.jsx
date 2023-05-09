@@ -9,7 +9,7 @@ function MobileNav() {
     <aside
       className={`${
         !mobileMenuView
-          ? " -left-[100%] "
+          ? " -left-[200%] "
           : "   top-0 right-0 left-0 bottom-0  z-40 "
       } fixed backdrop-blur-xl w-screen  h-screen transition-all duration-700`}
     >
@@ -77,3 +77,6 @@ function MobileNav() {
 }
 
 export default MobileNav;
+
+// git status git add . git commit -m "link additions" git push
+

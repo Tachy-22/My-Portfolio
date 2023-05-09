@@ -6,7 +6,7 @@ import About_ from "../../Pages/About_";
 
 function HomePage() {
   return (
-    <div className="tablet:w-full w-screen  flex flex-col   ">
+    <div className="tablet:w-full w-screen tablet:p-2 flex flex-col   ">
       <span className="element-tags">&lt; html &gt;</span>
       <span className="element-tags tab">&lt; body &gt;</span>
       <Introduction />
