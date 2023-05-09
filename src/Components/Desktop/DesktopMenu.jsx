@@ -5,7 +5,10 @@ function DesktopMenu() {
   return (
     <aside className="w-[10rem] hidden fixed top-0 left-0 bottom-0     bg-[#181818] h-screen laptop:flex flex-col justify-between">
       <Link to="/" className=" bg-black  flex flex-col items-center">
-        <div className="glitch-wrapper ">
+        <div
+        
+          className="glitch-wrapper "
+        >
           <div className="glitch" data-glitch="J">
             J
           </div>

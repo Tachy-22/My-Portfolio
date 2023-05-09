@@ -1,8 +1,8 @@
 function MySkills() {
   return (
-    <section className="flex items-center h-full ">
-      <article className=" w-[55%] lg:w-[60%] xl:w-[50%] px-4  border">
-        <h2 className="text-[#08fdd8] text-6xl font-bold py-6 lg:text-left text-center">
+    <section className="flex items-center tablet:w-full w-screen h-full ">
+      <article className="  lg:w-[60%] xl:w-[50%] ">
+        <h2 className="text-[#08fdd8] tablet:text-6xl text-3xl font-bold py-6 laptop:text-left  text-center">
           Skills & Experience
         </h2>
         <div className="px-4 flex flex-col gap-6">

@@ -5,14 +5,16 @@ function Work() {
     <section className="w-full  min-h-screen max-w-full flex flex-col justify-start">
       <article className="   flex laptop:w-3/4 w-full flex-col justify-center h-fit   ">
         <article className="       flex flex-col justify-center  ">
-          <span className="  element-tags tab-2">&lt; h2 &gt;</span>
-          <h2 className="  text-[#08fdd8] tablet:text-6xl text-2xl font-bold   lg:text-left  tab-3">
+          <span className="  element-tags tablet:tab-2 tab">
+            &lt; h2 &gt;
+          </span>
+          <h2 className="  text-[#08fdd8] tablet:text-6xl text-2xl font-bold   lg:text-left  tablet:tab-3 tab-2">
             My Portfolio
           </h2>
-          <span className="  element-tags tab-2">&lt; /h2 &gt;</span>
-          <span className="  element-tags tab-2">&lt; p &gt;</span>
-          <div className="  p-4  tabet:text-md  flex flex-col gap-6">
-            <p className=" tab-3">
+          <span className="  element-tags tab-tablet:tab-2 tab">&lt; /h2 &gt;</span>
+          <span className="  element-tags tablet:tab-2 tab">&lt; p &gt;</span>
+          <div className="    tabet:text-md  flex flex-col gap-6">
+            <p className=" tablet:tab-3 tab-2">
               A small gallery of recent projects chosen by me. I&apos;ve done
               them all together with amazing people from companies around the
               globe. It&apos;s only a drop in the ocean compared to the entire
@@ -24,7 +26,6 @@ function Work() {
         </article>
       </article>
       <span className="    element-tags tab">&lt; section &gt;</span>
-
 
       <div className="r w-full h-full p-[2rem]  grow grid tablet:grid-cols-3 grid-cols-1 gap-6 ">
         {projectsArray.map((project, index) => {

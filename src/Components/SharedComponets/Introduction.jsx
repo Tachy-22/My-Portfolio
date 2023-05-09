@@ -28,7 +28,7 @@ function Introduction() {
             </span>
             <span className="  element-tags">&lt; /p &gt;</span>
           </p>
-          <button className="  custom-button laptop:m-6 laptop:mx-8 my-2 ml-[5rem] tablet:w-1/3 w-fit laptop:text-xl text-xs">
+          <button className="  custom-button laptop:m-6 laptop:mx-8 my-2 ml-[4rem] tablet:w-1/3 w-fit laptop:text-xl text-xs">
             Contact me!
           </button>
         </article>
@@ -38,7 +38,7 @@ function Introduction() {
         animate={{ y: 100, scale: 1 }}
         initial={{ scale: 0, y: -100 }}
         transition={{ duration: 1 }}
-        className="   rounded-full  backdrop-brightness-50 ta-[0.5rem] border-2 opacity-90 transition-all duration-800 border-[#303033] laptop:h-full max-w-[25rem] laptop:relative absolute top-0 right-5 w-[20%] h-fit"
+        className="tablet:block hidden   rounded-full  backdrop-brightness-50 ta-[0.5rem] border-2 opacity-90 transition-all duration-800 border-[#303033] laptop:h-full max-w-[25rem] laptop:relative absolute top-0 right-5 w-[20%] h-fit"
       >
         <img
           className="  h-full w-full   rounded-full  "

@@ -2,14 +2,14 @@ import { motion } from "framer-motion";
 import { skillTechnologyArray } from "../db-arrays/DbArrays";
 function About_() {
   return (
-    <section className="  tablet:w-full  laptop:flex-row flex flex-col py-2 laptop:h-full  min-h-full laptop:items-center ">
-      <article className="     flex tablet:w-3/4 flex-col justify-center h-full   ">
+    <section className="  tablet:w-full   laptop:flex-row flex flex-col tablet:p-2 w-screen laptop:h-full  min-h-full laptop:items-center ">
+      <article className="     flex w-screen  tablet:w-3/4 flex-col justify-center h-full   ">
         <span className="    element-tags grow ">&lt; section &gt;</span>
         <article className="         flex flex-col justify-center  ">
           <span className="    grow element-tags laptop:tab-2 ">
             &lt; h2 &gt;
           </span>
-          <h2 className="  shrink w-full    grow text-[#08fdd8] laptop:text-6xl text-4xl font-bold   lg:text-left  laptop:tab-3 tab-2">
+          <h2 className="  shrink w-full    grow text-[#08fdd8] laptop:text-6xl text-3xl  font-bold   lg:text-left  laptop:tab-3 tab-2">
             Me, Myself & I
           </h2>
           <span className="    grow element-tags laptop:tab-2 tab">
@@ -18,7 +18,7 @@ function About_() {
           <span className="    grow element-tags laptop:tab-2 tab">
             &lt; p &gt;
           </span>
-          <div className="   shrink  grow p-4 w-full flex flex-col gap-6">
+          <div className="   shrink  grow p-4  w-screen tablet:w-full flex flex-col gap-6">
             <p className="  laptop:tab-3 tab-2">
               I’m a Front-End Developer located in Poland. I have a serious
               passion for UI effects, animations and creating intuitive, dynamic
@@ -51,8 +51,8 @@ function About_() {
           return (
             <motion.div
               key={index}
-              animate={{ scale: 0.9 }}
-              initial={{ scale: 0.6 }}
+              animate={{ scale: 1.2 }}
+              initial={{ scale: 1 }}
               drag
               dragConstraints={{ left: 50, right: 50, top: 50, bottom: 50 }}
               transition={{ repeat: Infinity, duration: 1, delay: 2 }}
