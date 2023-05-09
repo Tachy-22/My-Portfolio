@@ -20,20 +20,51 @@ function About_() {
           </span>
           <div className="   shrink  grow p-4  w-screen tablet:w-full flex flex-col gap-6">
             <p className="  laptop:tab-3 tab-2">
-              I’m a Front-End Developer located in Poland. I have a serious
-              passion for UI effects, animations and creating intuitive, dynamic
-              user experiences.
+              Welcome to my About Me page! I&apos;m thrilled to have this opportunity
+              to share a bit about myself and my journey in the world of
+              front-end development. I&apos;m a front end developer located in
+              Nigeria. In October 2022, I embarked on my journey into front-end
+              development, and ever since, I have been passionate about creating
+              exceptional digital experiences.
             </p>
             <p className="  laptop:tab-3 tab-2">
-              Well-organised person, problem solver, independent employee with
-              high attention to detail. Fan of MMA, outdoor activities, TV
-              series and English literature.
+              One of my greatest passions lies in the realm of programming and
+              artificial intelligence. I find the potential of AI to transform
+              industries and improve lives truly fascinating. I&apos;m eager to
+              further explore this field and apply my programming skills to
+              contribute to its advancement.
             </p>
             <p className="  laptop:tab-3 tab-2">
-              A family person and father of two fractious boys, Interested in
-              the entire frontend spectrum and working on ambitious projects
-              with positive people.
+              Collaboration is something I value greatly, and I am excited about
+              the prospect of working with a dynamic and diverse team. I believe
+              that collective efforts and different perspectives can lead to
+              exceptional outcomes. I enjoy collaborating, brainstorming ideas,
+              and bringing them to life through coding.
             </p>
+            <p className="  laptop:tab-3 tab-2">
+              I am currently in my fourth year of pursuing a degree in
+              Mechanical Engineering, which has significantly enhanced my
+              technical abilities and problem-solving skills. This background
+              provides me with a unique perspective when approaching programming
+              challenges, as I can leverage my engineering knowledge to create
+              efficient and well-structured code.
+            </p>
+            <p className="  laptop:tab-3 tab-2">
+              In my web development journey, I strive for excellence by building
+              clean, interactive, and responsive websites that leave a lasting
+              impression on users. I pay meticulous attention to detail,
+              ensuring that the websites I create not only look visually
+              appealing but also function flawlessly across various devices and
+              platforms.
+            </p>
+            <p className="  laptop:tab-3 tab-2">
+              Thank you for taking the time to learn a bit about me. I am
+              excited about the future opportunities that await me in the world
+              of front-end development and AI, and I look forward to
+              collaborating with like-minded individuals who share my passion
+              for creating remarkable digital experiences.
+            </p>
+
             <p className="   laptop:tab-3 tab-2 text-[#08fdd8]">
               Let&apos;s make something special.
             </p>

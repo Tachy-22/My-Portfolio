@@ -29,7 +29,11 @@ function Introduction() {
             <span className="  element-tags">&lt; /p &gt;</span>
           </p>
           <button className="  custom-button laptop:m-6 laptop:mx-8 my-2 ml-[4rem] tablet:w-1/3 w-fit laptop:text-xl text-xs">
-            Contact me!
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://wa.me/message/YC2BJVDJQXIRFI"
+            >Contact me!</a>
           </button>
         </article>
       </div>

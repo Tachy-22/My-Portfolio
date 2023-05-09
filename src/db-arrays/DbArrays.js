@@ -25,10 +25,30 @@ export const navArray = [
 ];
 
 export const socialsArray = [
-  { social: "linkedIn", link: "about", src: linkedin_icon },
-  { social: "github", link: "my-skills", src: github_icon },
-  { social: "twitter", link: "work", src: twitter_icon },
-  { social: "facebook", link: "work", src: facebook_icon },
+  {
+    social: "linkedIn",
+    link: "about",
+    src: linkedin_icon,
+    path: "https://www.linkedin.com/in/jeffrey-entekume-330644259/",
+  },
+  {
+    social: "github",
+    link: "my-skills",
+    src: github_icon,
+    path: "https://github.com/Tachy-22",
+  },
+  {
+    social: "twitter",
+    link: "work",
+    src: twitter_icon,
+    path: "https://twitter.com/entekume_j",
+  },
+  {
+    social: "facebook",
+    link: "work",
+    src: facebook_icon,
+    path: "https://web.facebook.com/profile.php?id=100088511213408",
+  },
 ];
 
 export const skillTechnologyArray = [

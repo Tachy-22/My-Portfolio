@@ -15,11 +15,20 @@ function Work() {
           <span className="  element-tags tablet:tab-2 tab">&lt; p &gt;</span>
           <div className="    tabet:text-md  flex flex-col gap-6">
             <p className=" tablet:tab-3 tab-2">
-              A small gallery of recent projects chosen by me. I&apos;ve done
-              them all together with amazing people from companies around the
-              globe. It&apos;s only a drop in the ocean compared to the entire
-              list. Interested to see some more? Visit
-              <span className="  text-[#08fdd8]"> my work </span> page.
+              A gallery of recent projects chosen by me. I&apos;ve done them
+              mostly alone, but i&apos;m looking forward to working on projects
+              with a team. Interested to see some more? Visit
+              <span className="  text-[#08fdd8]">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/Tachy-22/"
+                >
+                  {" "}
+                  my git hub repo
+                </a>
+              </span>
+              .
             </p>
           </div>
           <span className="  element-tags tab-2">&lt; p/ &gt;</span>

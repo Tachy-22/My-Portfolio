@@ -11,11 +11,11 @@ function MobileNav() {
         !mobileMenuView
           ? " -left-[200%] "
           : "   top-0 right-0 left-0 bottom-0  z-40 "
-      } fixed backdrop-blur-xl w-screen  h-screen transition-all duration-700`}
+      } fixed  w-screen  h-screen transition-all duration-700 backdrop-blur-3xl`}
     >
       <section
         className={`
-          w-screen  flex flex-col h-full  justify-between items-center `}
+          w-screen  flex flex-col h-full  justify-between bg-black/75  items-center `}
       >
         <section
           onClick={() => setMobileMenuView(!mobileMenuView)}
@@ -30,9 +30,9 @@ function MobileNav() {
         <Link
           onClick={() => setMobileMenuView((prev) => !prev)}
           to="/"
-          className=" bg-black grow flex flex-col items-center"
+          className=" bg-black h-fit  justify-center flex flex-col items-center"
         >
-          <div className="glitch-wrapper ">
+          <div className="glitch-wrapper h-fit  w-fit">
             <div className="glitch" data-glitch="J">
               J
             </div>
@@ -58,16 +58,18 @@ function MobileNav() {
             );
           })}
         </nav>
-        <section className="  flex  grow w-fit items-end justify-center gap-4   p-4 h-fit">
+        <section className="  flex  w-fit items-end justify-center gap-4   p-4 h-fit">
           {socialsArray.map((social, index) => {
             return (
-              <Link
+              <a
                 className="w-fith-fit hover:outline p-1  hover:outline-[#08fdd8] rounded-full "
-                to="/"
+                target="_blank"
+                rel="noreferrer"
+                href={social.path}
                 key={index}
               >
                 <img className="w-[2rem]  " src={social.src}></img>
-              </Link>
+              </a>
             );
           })}
         </section>
@@ -79,4 +81,3 @@ function MobileNav() {
 export default MobileNav;
 
 // git status git add . git commit -m "link additions" git push
-
